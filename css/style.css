@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #ebeef0;
+    margin: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #e38df0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+form input, form button {
+    padding: 10px;
+    font-size: 15px;
+}
+
+form button {
+    cursor: pointer;
+    background: #a707f2;
+    color: white;
+    border: none;
+}
+
+.filter-box {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 8px;
+    background: #e9ecef;
+    border-radius: 6px;
+}
+
+.delete-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    cursor: pointer;
+    border-radius: 5px;
+}
